@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom, #775454 5%, #111111 100%);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    transition: .4s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffa784;
+}
+
+.navbar-default .navbar-text {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-text a {
+    color: #9aa9ff
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #503232;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .active > a {
+    background-image: linear-gradient(to bottom, #503232 5%, #111111 100%);
+    color: #ffa784;
+    cursor: default;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .active > a:hover{
+    color: #ffa784;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.btn-padding {
+    padding-top: 15px;
+}
+
+.btn-primary {
+    background-color: #fc8330;
+    background-image: linear-gradient(to bottom, #fc8330 0%, #0e0d0d 100%);
+    border: #fc8330;
+    transition: .3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    border: #fc8330;
+    background-color: #fc8330;
+    background-image: linear-gradient(to bottom, #c05812 40%, #020202 100%);
+    background-position: 0;
+}
+
+.panel-primary > .panel-heading {
+    background-image: linear-gradient(to bottom, #252323 0%, #292828 100%);
+}
+
+.panel-primary {
+    border-color: #111111;
+}
+
+.btn-default {
+    background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+}

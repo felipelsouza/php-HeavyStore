@@ -1,0 +1,8 @@
+CREATE TABLE albumslist (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	albumName VARCHAR(100) NOT NULL,
+	band VARCHAR(100) NOT NULL,
+	releaseDate DATE NOT NULL,
+	price DECIMAL(10, 2) NOT NULL,
+	PRIMARY KEY (id)
+)
